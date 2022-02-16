@@ -19,3 +19,9 @@
 
         Final gösteriminde neler yapacağınızı yazacaksınız
 
+
+# İlişkisel Veritabanı Tasarımı
+
+![Veri Tabanı Tasarımı](./docs/er_diagram.png)
+
+
