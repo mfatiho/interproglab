@@ -2,7 +2,7 @@
 
     Proje özetini yazınız
 
-# PROJE AŞAMALARI (AŞAĞIDAKİ TARİHLER SADECE ÖRNEKTİR. KENDİ TAKVİMİZİ KENDİNİZ OLUŞUTACAKSINIZ.)
+# PROJE AŞAMALARI (AŞAĞIDAKİ TARİHLER SADECE ÖRNEKTİR. KENDİ TAKVİMİZİ KENDİNİZ OLUŞTURACAKSINIZ.)
 - 06.03.2022 - 1.Ara Gösterim
 
         1. ara gösterimde neler yapacağınızı yazacaksınız
