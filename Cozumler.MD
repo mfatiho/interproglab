@@ -13,10 +13,10 @@
 # build.xml de hata
 - Hata 1: Glassfish 6.2.5 logunda "org.apache.catalina.LifecycleException: java.lang.ClassNotFoundException: javax.faces.webapp.FacesServlet" hatası
     
-    HelloWorld uygulamasında web.xml içeriği aşağıdaki gibi olmalıdır.
+    HelloWorld uygulamasında web.xml içeriği aşağıdaki gibi olmalıdır. 
     
         <?xml version="1.0" encoding="UTF-8"?>
-        **<web-app xmlns="jakarta.ee/xml/ns/jakartaee" xmlns:xsi="w3.org/2001/XMLSchema-instance" xsi:schemaLocation="jakarta.ee/xml/ns/jakartaee jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0" metadata-complete="true">**
+        <web-app xmlns="jakarta.ee/xml/ns/jakartaee" xmlns:xsi="w3.org/2001/XMLSchema-instance" xsi:schemaLocation="jakarta.ee/xml/ns/jakartaee jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0" metadata-complete="true">
             <context-param>
                 <param-name>jakarta.faces.PROJECT_STAGE</param-name>
                 <param-value>Development</param-value>
