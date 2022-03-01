@@ -10,10 +10,10 @@
 - Üretilen token bilgisini kopyalayıp netbeans deki parola kısmına yapıştırınız
 
 
-# build.xml de hata
-- Hata 1: Glassfish 6.2.5 logunda "org.apache.catalina.LifecycleException: java.lang.ClassNotFoundException: javax.faces.webapp.FacesServlet" hatası
+# Netbeans HelloWorld uygulamasında build.xml de hatası
+   **Hata 1**: Glassfish 6.2.5 logunda "org.apache.catalina.LifecycleException: java.lang.ClassNotFoundException: javax.faces.webapp.FacesServlet" hatası
     
-    HelloWorld uygulamasında web.xml içeriği aşağıdaki gibi olmalıdır. 
+   **Çözüm**:HelloWorld uygulamasında web.xml içeriği aşağıdaki gibi olmalıdır. javax yerine jakarta kullanılmalıdır 
     
         <?xml version="1.0" encoding="UTF-8"?>
         <web-app xmlns="jakarta.ee/xml/ns/jakartaee" xmlns:xsi="w3.org/2001/XMLSchema-instance" xsi:schemaLocation="jakarta.ee/xml/ns/jakartaee jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0" metadata-complete="true">
