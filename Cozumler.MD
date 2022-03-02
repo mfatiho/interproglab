@@ -42,5 +42,3 @@
                   <welcome-file>faces/index.xhtml</welcome-file>
               </welcome-file-list>
           </web-app>
-
-     
