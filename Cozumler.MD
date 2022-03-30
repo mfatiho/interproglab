@@ -9,6 +9,10 @@
 - "Generate Token" düğmesine tıklayınız
 - Üretilen token bilgisini kopyalayıp netbeans deki parola kısmına yapıştırınız
 
+# Github global username, email bilgilerinin eklenmesi
+
+    git config --global user.name “<Ad Soyad bilgilerinizi giriniz>”
+    git config --global user.email “<E-posta adresinizi giriniz>”
 
 # Netbeans HelloWorld uygulamasında build.xml de hatası
    **Hata 1**: Glassfish 6.2.5 sunucu logunda "org.apache.catalina.LifecycleException: java.lang.ClassNotFoundException: javax.faces.webapp.FacesServlet" hatası alıyorum.
